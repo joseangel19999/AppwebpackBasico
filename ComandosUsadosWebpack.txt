@@ -1,0 +1,38 @@
+iniciar un proyecto con webpack ejecutamos el siguiente comando
+npm init y seguir el proceso o 
+npm init -y que toma po defecto la configuracion
+-----------------------------------------------------------------------------------------------------------
+instalacio  de webpack en desarrollo local
+npm install webpack webpack-cli --save-dev
+-----------------------------------------------------------------------------------------------------------
+instalar depencias para transformar procesar el html incrustar el js y moverlo a la carpeta dist
+npm i -D html-loader html-webpack-plugin
+-----------------------------------------------------------------------------------------------------------
+inatalar depeendecia de html
+npm i -D html-loader
+npm install --save-dev html-loader
+npm install --save-dev html-webpack-plugin
+-----------------------------------------------------------------------------------------------------------
+instalar el devserver para ver las actualizaciones en codigo en la pagina
+npm i -D webpack-dev-server
+-----------------------------------------------------------------------------------------------------------
+instalar dependecias para el manejo de css en webpack
+npm install --save-dev style-loader css-loader
+-----------------------------------------------------------------------------------------------------------
+instalar dependecia cuando se quiera usar css de forma global
+npm install --save-dev mini-css-extract-plugin
+-----------------------------------------------------------------------------------------------------------
+instalar dependeci para el manejo de imaganes en webpack
+npm install file-loader --save-dev
+-----------------------------------------------------------------------------------------------------------
+instalar dependecia para mover imagenes estaticos
+npm install copy-webpack-plugin --save-dev
+-----------------------------------------------------------------------------------------------------------
+instalar dependecias para minificar los estilos globales
+ npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+----------------------------------------------------------------------------------------------------------
+instalar babel para convertir transpilar js
+npm install --save-dev babel-loader @babel/core
+luego 
+npm install @babel/preset-env --save-dev
+----------------------------------------------------------------------------------------------------------
